@@ -1,5 +1,5 @@
 if(NOT CMAKE_FRAMEWORK_DIR)
-  set(CMAKE_FRAMEWORK_DIR ${CMAKE_SOURCE_DIR}/cmake/framework)
+  #set(CMAKE_FRAMEWORK_DIR ${CMAKE_SOURCE_DIR}/modules/vislink/ext)
 endif()
 
 set(${PROJECT_NAME}_VERSION 1.0.0)

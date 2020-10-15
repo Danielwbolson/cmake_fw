@@ -1,5 +1,5 @@
 if(NOT CMAKE_FRAMEWORK_DIR)
-  set(CMAKE_FRAMEWORK_DIR ${CMAKE_SOURCE_DIR}/cmake/framework)
+  #set(CMAKE_FRAMEWORK_DIR ${CMAKE_SOURCE_DIR}/modules/vislink/ext)
 endif()
 
 include(${CMAKE_FRAMEWORK_DIR}/external/external.cmake)
