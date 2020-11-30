@@ -2,7 +2,7 @@ project(ExampleProject)
 
 cmake_minimum_required(VERSION 2.8)
 
-set(CMAKE_FRAMEWORK_DIR ${CMAKE_SOURCE_DIR}/cmake/framework)
+#set(CMAKE_FRAMEWORK_DIR ${CMAKE_SOURCE_DIR}/modules/vislink/ext)
 
 if(NOT EXISTS ${CMAKE_FRAMEWORK_DIR})
 execute_process(

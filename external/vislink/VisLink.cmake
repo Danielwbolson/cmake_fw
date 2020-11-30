@@ -1,6 +1,6 @@
 macro (useVisLink)
 	add_external(vislink
-		GIT_REPOSITORY https://github.com/dtorban/VisLink.git
+		GIT_REPOSITORY https://github.com/danielwbolson/VisLink.git
 		LIB_NAME VisLink
 	)
 
@@ -28,6 +28,7 @@ macro (useVisLink)
 	if(MSVC)
 	  set(DEP_LIBS ${DEP_LIBS} optimized glfw3.lib debug glfw3d.lib PARENT_SCOPE)
 	  set(DEP_LIBS ${DEP_LIBS} optimized sandbox.lib debug sandboxd.lib PARENT_SCOPE)
+	  #set(DEP_LIBS ${DEP_LIBS} sandboxd.lib PARENT_SCOPE)
 	else()
 	  set(DEP_LIBS ${DEP_LIBS} optimized libglfw3.a debug libglfw3d.a PARENT_SCOPE)
 	  set(DEP_LIBS ${DEP_LIBS} optimized libsandbox.a debug libsandboxd.a PARENT_SCOPE)
