@@ -1,6 +1,6 @@
 macro (useVisLink)
 	add_external(vislink
-		GIT_REPOSITORY https://github.com/danielwbolson/VisLink.git
+		GIT_REPOSITORY https://github.com/OpenSpace-VisLink/VisLink.git
 		LIB_NAME VisLink
 	)
 
